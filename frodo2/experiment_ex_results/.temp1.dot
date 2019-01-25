@@ -1,0 +1,16 @@
+digraph {
+	node [shape = "circle"];
+
+	var4 [style="filled"];
+
+	var3 [style="filled"];
+	var4 -> var3;
+
+	var2 [style="filled"];
+	var3 -> var2;
+
+	var1 [style="filled"];
+	var2 -> var1;
+	var4 -> var1 [style = "dashed" arrowhead = "none" weight="0.5"];
+
+}

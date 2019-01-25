@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding ="UTF-8"?><instance>
+ <presentation name="experiment" maxConstraintArity="2"
+ maximize="false" format="XCSP 2.1_FRODO" />  
+
+ <agents nbAgents="4">
+  <agent name="A1" />
+   <agent name="A2" />
+   <agent name="A3" />
+   <agent name="A4" />
+</agents>
+<predicates nbPredicates="2">
+   <predicate name="EQ">
+     <parameters> int X1 int X2 int X3 </parameters> 
+     <expression>
+      <functional> eq(abs(sub(X1, X2)),X3) </functional>
+     </expression>
+   </predicate>
+   <predicate name="GEQ">
+     <parameters> int X1 int X2 int X3 </parameters> 
+     <expression>
+      <functional> ge(abs(sub(X1, X2)),X3) </functional>
+     </expression>
+    </predicate>
+ </predicates>
+
+<domains nbDomains="1">
+  <domain name="dom1" nbValues="3">1 2 5</domain>
+ </domains>
+
+ <variables nbVariables="4">
+  <variable name="var1" domain="dom1" agent="A1"/>
+  <variable name="var2" domain="dom1" agent="A2"/>
+  <variable name="var3" domain="dom1" agent="A3"/>
+  <variable name="var4" domain="dom1" agent="A4"/>
+</variables>
+
+<constraints nbConstraints="4">  
+	<constraint name="Const1" arity="3" scope="var1 var2" reference="GEQ" >
+    <parameters> var1 var2 2 </parameters>
+  </constraint>
+  <constraint name="Const3" arity="3" scope="var2 var3" reference="GEQ" >
+    <parameters> var2 var3 1 </parameters>
+  </constraint>
+    <constraint name="Const2" arity="3" scope="var3 var4" reference="EQ" >
+    <parameters> var3 var4 0 </parameters>
+  </constraint>
+  <constraint name="Const4" arity="3" scope="var1 var4" reference="GEQ" >
+    <parameters> var1 var4 0 </parameters>
+  </constraint>
+  </constraints>
+</instance>

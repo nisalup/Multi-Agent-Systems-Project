@@ -1,0 +1,74 @@
+FRODO  Copyright (C) 2008-2017  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file experiment.xml
+Parsing the input agent configuration file agents/MGM/MGMagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_A1 {
+		label = A1;
+		var1 [style="filled"];
+	}
+	subgraph cluster_A2 {
+		label = A2;
+		var2 [style="filled"];
+	}
+	subgraph cluster_A3 {
+		label = A3;
+		var3 [style="filled"];
+	}
+	subgraph cluster_A4 {
+		label = A4;
+		var4 [style="filled"];
+	}
+
+
+	var4 -- var3;
+	var4 -- var1;
+	var3 -- var2;
+	var2 -- var1;
+}
+
+Starting the algorithm...
+var `var4' = 1
+var `var2' = 2
+var `var1' = 5
+var `var3' = 1
+Total optimal cost: 0
+Algorithm finished in 48 ms (simulated time)
+Number of messages sent (by type): 
+	improve:	1 600
+	ok:	1 600
+	- Total:	3 200
+Number of messages sent (by agent): 
+	A1:	800
+	A2:	800
+	A3:	800
+	A4:	800
+Number of messages received (by agent): 
+	A1:	800
+	A2:	800
+	A3:	800
+	A4:	800
+Amount of information sent (by type, in bytes): 
+	improve:	34 032
+	ok:	33 680
+	- Total:	67 712
+Amount of information sent (by agent, in bytes): 
+	A1:	16 962
+	A2:	16 978
+	A3:	16 794
+	A4:	16 978
+Amount of information received (by agent, in bytes): 
+	A1:	16 978
+	A2:	16 878
+	A3:	16 978
+	A4:	16 878
+Size of the largest message sent (by type, in bytes): 
+	improve:	211
+	ok:	226
+	- Overall maximum:	226

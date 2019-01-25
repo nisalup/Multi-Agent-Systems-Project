@@ -1,0 +1,2472 @@
+FRODO  Copyright (C) 2008-2017  Thomas Leaute, Brammert Ottens & Radoslaw Szymanek
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions. Use the option -license to display the license.
+
+Parsing the input problem file scen03/scene03.xml
+Parsing the input agent configuration file agents/MGM/MGMagentJaCoP.xml
+Setting up the agents...
+Constraint graph:
+graph {
+	node [shape = "circle"];
+	subgraph cluster_A43 {
+		label = A43;
+		X745 [style="filled"];
+		X767 [style="filled"];
+		X746 [style="filled"];
+		X768 [style="filled"];
+		X747 [style="filled"];
+		X748 [style="filled"];
+		X597 [style="filled"];
+		X630 [style="filled"];
+		X598;
+		X631 [style="filled"];
+		X599 [style="filled"];
+		X557 [style="filled"];
+		X593 [style="filled"];
+		X613 [style="filled"];
+		X614 [style="filled"];
+		X520 [style="filled"];
+		X663;
+		X664;
+		X763 [style="filled"];
+		X785 [style="filled"];
+		X665 [style="filled"];
+		X764 [style="filled"];
+		X786;
+		X600 [style="filled"];
+		X666 [style="filled"];
+		X743 [style="filled"];
+		X765 [style="filled"];
+		X744 [style="filled"];
+		X766 [style="filled"];
+	}
+	subgraph cluster_A44 {
+		label = A44;
+		X525 [style="filled"];
+		X582 [style="filled"];
+	}
+	subgraph cluster_A45 {
+		label = A45;
+		X526 [style="filled"];
+	}
+	subgraph cluster_A46 {
+		label = A46;
+		X573 [style="filled"];
+		X757 [style="filled"];
+		X759 [style="filled"];
+	}
+	subgraph cluster_A47 {
+		label = A47;
+		X760 [style="filled"];
+		X574 [style="filled"];
+		X758 [style="filled"];
+	}
+	subgraph cluster_A48 {
+		label = A48;
+		X640 [style="filled"];
+		X623 [style="filled"];
+		X624;
+		X625 [style="filled"];
+		X637 [style="filled"];
+		X638;
+		X639 [style="filled"];
+		X581 [style="filled"];
+	}
+	subgraph cluster_A49 {
+		label = A49;
+		X589 [style="filled"];
+		X634 [style="filled"];
+		X602 [style="filled"];
+		X635 [style="filled"];
+	}
+	subgraph cluster_A0 {
+		label = A0;
+		X13 [style="filled"];
+	}
+	subgraph cluster_A1 {
+		label = A1;
+		X321 [style="filled"];
+		X322 [style="filled"];
+		X323 [style="filled"];
+		X324 [style="filled"];
+		X14 [style="filled"];
+		X16 [style="filled"];
+		X15 [style="filled"];
+	}
+	subgraph cluster_A2 {
+		label = A2;
+		X23 [style="filled"];
+	}
+	subgraph cluster_A3 {
+		label = A3;
+		X877 [style="filled"];
+		X867 [style="filled"];
+		X878 [style="filled"];
+		X868;
+		X881;
+		X50;
+		X882;
+		X893;
+		X894;
+		X52 [style="filled"];
+		X51;
+		X54;
+		X105 [style="filled"];
+		X53;
+		X106 [style="filled"];
+		X24 [style="filled"];
+		X49;
+		X491;
+		X492 [style="filled"];
+		X493;
+		X494 [style="filled"];
+	}
+	subgraph cluster_A4 {
+		label = A4;
+		X67 [style="filled"];
+	}
+	subgraph cluster_A5 {
+		label = A5;
+		X835 [style="filled"];
+		X879;
+		X836;
+		X837;
+		X903;
+		X838;
+		X904;
+		X70 [style="filled"];
+		X495;
+		X880 [style="filled"];
+		X496;
+		X651 [style="filled"];
+		X652;
+		X103 [style="filled"];
+		X104 [style="filled"];
+		X875 [style="filled"];
+		X876 [style="filled"];
+		X69;
+		X68 [style="filled"];
+	}
+	subgraph cluster_A6 {
+		label = A6;
+		X82 [style="filled"];
+		X79 [style="filled"];
+	}
+	subgraph cluster_A7 {
+		label = A7;
+		X81 [style="filled"];
+		X80 [style="filled"];
+	}
+	subgraph cluster_A8 {
+		label = A8;
+		X83 [style="filled"];
+	}
+	subgraph cluster_A9 {
+		label = A9;
+		X85 [style="filled"];
+		X84 [style="filled"];
+		X86 [style="filled"];
+	}
+	subgraph cluster_A50 {
+		label = A50;
+		X668 [style="filled"];
+		X636 [style="filled"];
+		X615;
+		X616;
+		X715 [style="filled"];
+		X825 [style="filled"];
+		X617 [style="filled"];
+		X716 [style="filled"];
+		X826 [style="filled"];
+		X618;
+		X619 [style="filled"];
+		X595 [style="filled"];
+		X596;
+		X641 [style="filled"];
+		X620 [style="filled"];
+		X642 [style="filled"];
+		X643 [style="filled"];
+		X830 [style="filled"];
+		X633 [style="filled"];
+		X644 [style="filled"];
+		X601 [style="filled"];
+		X667 [style="filled"];
+		X590 [style="filled"];
+	}
+	subgraph cluster_A51 {
+		label = A51;
+		X261 [style="filled"];
+	}
+	subgraph cluster_A52 {
+		label = A52;
+		X262 [style="filled"];
+	}
+	subgraph cluster_A53 {
+		label = A53;
+		X287 [style="filled"];
+	}
+	subgraph cluster_A10 {
+		label = A10;
+		X117 [style="filled"];
+	}
+	subgraph cluster_A54 {
+		label = A54;
+		X288 [style="filled"];
+	}
+	subgraph cluster_A11 {
+		label = A11;
+		X118 [style="filled"];
+		X119 [style="filled"];
+		X120 [style="filled"];
+	}
+	subgraph cluster_A55 {
+		label = A55;
+		X293 [style="filled"];
+	}
+	subgraph cluster_A12 {
+		label = A12;
+		X127 [style="filled"];
+		X129 [style="filled"];
+	}
+	subgraph cluster_A56 {
+		label = A56;
+		X294 [style="filled"];
+	}
+	subgraph cluster_A13 {
+		label = A13;
+		X128 [style="filled"];
+		X130 [style="filled"];
+	}
+	subgraph cluster_A14 {
+		label = A14;
+		X143 [style="filled"];
+	}
+	subgraph cluster_A15 {
+		label = A15;
+		X144 [style="filled"];
+		X145 [style="filled"];
+		X146 [style="filled"];
+	}
+	subgraph cluster_A16 {
+		label = A16;
+		X151 [style="filled"];
+	}
+	subgraph cluster_A17 {
+		label = A17;
+		X206 [style="filled"];
+		X209 [style="filled"];
+		X154 [style="filled"];
+		X210 [style="filled"];
+		X211 [style="filled"];
+		X212 [style="filled"];
+		X213 [style="filled"];
+		X214 [style="filled"];
+		X205 [style="filled"];
+		X152 [style="filled"];
+		X295 [style="filled"];
+		X153 [style="filled"];
+		X296 [style="filled"];
+	}
+	subgraph cluster_A18 {
+		label = A18;
+		X155 [style="filled"];
+	}
+	subgraph cluster_A19 {
+		label = A19;
+		X156 [style="filled"];
+		X157 [style="filled"];
+		X158 [style="filled"];
+		X339 [style="filled"];
+		X340 [style="filled"];
+	}
+	subgraph cluster_A20 {
+		label = A20;
+		X179 [style="filled"];
+		X182 [style="filled"];
+	}
+	subgraph cluster_A21 {
+		label = A21;
+		X180 [style="filled"];
+		X181 [style="filled"];
+		X183 [style="filled"];
+		X184 [style="filled"];
+	}
+	subgraph cluster_A22 {
+		label = A22;
+		X191 [style="filled"];
+	}
+	subgraph cluster_A23 {
+		label = A23;
+		X405 [style="filled"];
+		X449 [style="filled"];
+		X406 [style="filled"];
+		X827 [style="filled"];
+		X828 [style="filled"];
+		X375;
+		X376 [style="filled"];
+		X377 [style="filled"];
+		X773;
+		X378 [style="filled"];
+		X477 [style="filled"];
+		X653;
+		X774;
+		X478 [style="filled"];
+		X654 [style="filled"];
+		X192 [style="filled"];
+		X193;
+		X194 [style="filled"];
+		X370 [style="filled"];
+		X371;
+		X372;
+		X450 [style="filled"];
+		X217;
+		X218;
+		X911 [style="filled"];
+		X439 [style="filled"];
+		X912 [style="filled"];
+		X815;
+		X816;
+		X817;
+		X818;
+		X440 [style="filled"];
+		X741 [style="filled"];
+		X742 [style="filled"];
+		X369 [style="filled"];
+	}
+	subgraph cluster_A24 {
+		label = A24;
+		X215 [style="filled"];
+		X263 [style="filled"];
+	}
+	subgraph cluster_A25 {
+		label = A25;
+		X264 [style="filled"];
+		X325 [style="filled"];
+		X216 [style="filled"];
+		X326 [style="filled"];
+		X327 [style="filled"];
+		X328 [style="filled"];
+	}
+	subgraph cluster_A26 {
+		label = A26;
+		X233 [style="filled"];
+		X236 [style="filled"];
+	}
+	subgraph cluster_A27 {
+		label = A27;
+		X330 [style="filled"];
+		X234 [style="filled"];
+		X235 [style="filled"];
+		X329 [style="filled"];
+	}
+	subgraph cluster_A28 {
+		label = A28;
+		X237 [style="filled"];
+	}
+	subgraph cluster_A29 {
+		label = A29;
+		X305;
+		X349 [style="filled"];
+		X306 [style="filled"];
+		X307;
+		X769;
+		X308;
+		X309;
+		X829 [style="filled"];
+		X352 [style="filled"];
+		X671;
+		X770;
+		X672;
+		X299 [style="filled"];
+		X310 [style="filled"];
+		X311 [style="filled"];
+		X575 [style="filled"];
+		X312 [style="filled"];
+		X576 [style="filled"];
+		X313 [style="filled"];
+		X314 [style="filled"];
+		X238 [style="filled"];
+		X350 [style="filled"];
+		X351 [style="filled"];
+		X517 [style="filled"];
+		X518;
+		X286 [style="filled"];
+		X563 [style="filled"];
+		X300 [style="filled"];
+		X564 [style="filled"];
+		X301 [style="filled"];
+		X302 [style="filled"];
+		X401 [style="filled"];
+		X303;
+		X402 [style="filled"];
+		X304 [style="filled"];
+		X285;
+	}
+	subgraph cluster_A30 {
+		label = A30;
+		X265 [style="filled"];
+	}
+	subgraph cluster_A31 {
+		label = A31;
+		X646 [style="filled"];
+		X559 [style="filled"];
+		X603;
+		X604 [style="filled"];
+		X661;
+		X266 [style="filled"];
+		X585 [style="filled"];
+		X662;
+		X267;
+		X586 [style="filled"];
+		X268 [style="filled"];
+		X565 [style="filled"];
+		X587;
+		X566 [style="filled"];
+		X588 [style="filled"];
+		X645;
+		X560 [style="filled"];
+	}
+	subgraph cluster_A32 {
+		label = A32;
+		X269 [style="filled"];
+	}
+	subgraph cluster_A33 {
+		label = A33;
+		X789;
+		X275 [style="filled"];
+		X792;
+		X276 [style="filled"];
+		X793;
+		X277 [style="filled"];
+		X794;
+		X278 [style="filled"];
+		X795;
+		X796;
+		X555 [style="filled"];
+		X797 [style="filled"];
+		X556;
+		X798 [style="filled"];
+		X270 [style="filled"];
+		X271 [style="filled"];
+		X272 [style="filled"];
+		X273 [style="filled"];
+		X790;
+		X274 [style="filled"];
+		X791;
+		X341 [style="filled"];
+		X583 [style="filled"];
+		X342 [style="filled"];
+		X584;
+		X343 [style="filled"];
+		X344 [style="filled"];
+		X345 [style="filled"];
+		X346 [style="filled"];
+		X347 [style="filled"];
+		X787;
+		X348 [style="filled"];
+		X788;
+		X723 [style="filled"];
+		X724 [style="filled"];
+		X725 [style="filled"];
+		X726 [style="filled"];
+		X727 [style="filled"];
+		X607;
+		X728 [style="filled"];
+		X608;
+		X290;
+		X291 [style="filled"];
+		X292 [style="filled"];
+		X713 [style="filled"];
+		X714 [style="filled"];
+		X717 [style="filled"];
+		X718 [style="filled"];
+		X719 [style="filled"];
+		X289;
+		X720 [style="filled"];
+		X721 [style="filled"];
+		X722 [style="filled"];
+		X281 [style="filled"];
+		X282 [style="filled"];
+		X283 [style="filled"];
+		X284 [style="filled"];
+	}
+	subgraph cluster_A34 {
+		label = A34;
+		X355 [style="filled"];
+	}
+	subgraph cluster_A35 {
+		label = A35;
+		X356 [style="filled"];
+		X359 [style="filled"];
+		X360 [style="filled"];
+	}
+	subgraph cluster_A36 {
+		label = A36;
+		X363 [style="filled"];
+		X357 [style="filled"];
+		X361 [style="filled"];
+	}
+	subgraph cluster_A37 {
+		label = A37;
+		X364 [style="filled"];
+		X365 [style="filled"];
+		X366 [style="filled"];
+		X367 [style="filled"];
+		X368 [style="filled"];
+		X533 [style="filled"];
+		X358 [style="filled"];
+		X534 [style="filled"];
+		X535;
+		X536;
+		X362 [style="filled"];
+	}
+	subgraph cluster_A38 {
+		label = A38;
+		X383 [style="filled"];
+	}
+	subgraph cluster_A39 {
+		label = A39;
+		X547;
+		X734;
+		X548 [style="filled"];
+		X397;
+		X771;
+		X387;
+		X398;
+		X475 [style="filled"];
+		X772;
+		X783;
+		X388 [style="filled"];
+		X476 [style="filled"];
+		X784;
+		X435;
+		X436;
+		X733 [style="filled"];
+		X481;
+		X482;
+		X384 [style="filled"];
+	}
+	subgraph cluster_A40 {
+		label = A40;
+		X561 [style="filled"];
+		X577 [style="filled"];
+		X579 [style="filled"];
+		X606 [style="filled"];
+		X591 [style="filled"];
+		X471 [style="filled"];
+	}
+	subgraph cluster_A41 {
+		label = A41;
+		X800 [style="filled"];
+		X801 [style="filled"];
+		X626 [style="filled"];
+		X802 [style="filled"];
+		X605 [style="filled"];
+		X562 [style="filled"];
+		X621 [style="filled"];
+		X578 [style="filled"];
+		X622 [style="filled"];
+		X799 [style="filled"];
+		X580 [style="filled"];
+		X592 [style="filled"];
+		X472 [style="filled"];
+	}
+	subgraph cluster_A42 {
+		label = A42;
+		X594 [style="filled"];
+		X632 [style="filled"];
+		X558 [style="filled"];
+		X519 [style="filled"];
+		X629 [style="filled"];
+	}
+
+
+	X14 -- X13;
+	X16 -- X13;
+	X16 -- X15;
+	X15 -- X14;
+	X903 -- X875;
+	X903 -- X879;
+	X904 -- X880;
+	X904 -- X903;
+	X24 -- X23;
+	X800 -- X798;
+	X800 -- X799;
+	X801 -- X561;
+	X801 -- X234;
+	X801 -- X577;
+	X801 -- X621;
+	X801 -- X349;
+	X801 -- X800;
+	X801 -- X591;
+	X802 -- X562;
+	X802 -- X233;
+	X802 -- X578;
+	X802 -- X622;
+	X802 -- X799;
+	X802 -- X801;
+	X802 -- X350;
+	X802 -- X592;
+	X49 -- X106;
+	X911 -- X180;
+	X911 -- X439;
+	X911 -- X827;
+	X911 -- X450;
+	X912 -- X179;
+	X912 -- X449;
+	X912 -- X911;
+	X912 -- X828;
+	X50 -- X105;
+	X50 -- X49;
+	X52 -- X51;
+	X52 -- X23;
+	X52 -- X49;
+	X51 -- X50;
+	X51 -- X24;
+	X54 -- X51;
+	X54 -- X53;
+	X54 -- X49;
+	X53 -- X50;
+	X53 -- X52;
+	X825 -- X564;
+	X825 -- X402;
+	X825 -- X118;
+	X825 -- X668;
+	X825 -- X619;
+	X825 -- X120;
+	X826 -- X563;
+	X826 -- X620;
+	X826 -- X401;
+	X826 -- X117;
+	X826 -- X667;
+	X826 -- X119;
+	X826 -- X825;
+	X827 -- X440;
+	X827 -- X179;
+	X827 -- X449;
+	X828 -- X180;
+	X828 -- X439;
+	X828 -- X827;
+	X828 -- X450;
+	X829 -- X564;
+	X829 -- X118;
+	X829 -- X120;
+	X830 -- X563;
+	X830 -- X117;
+	X830 -- X119;
+	X830 -- X825;
+	X830 -- X829;
+	X67 -- X651;
+	X69 -- X651;
+	X69 -- X68;
+	X68 -- X652;
+	X68 -- X67;
+	X816 -- X815;
+	X817 -- X376;
+	X817 -- X370;
+	X817 -- X815;
+	X818 -- X375;
+	X818 -- X369;
+	X818 -- X371;
+	X818 -- X816;
+	X818 -- X817;
+	X70 -- X652;
+	X70 -- X67;
+	X70 -- X69;
+	X602 -- X595;
+	X602 -- X566;
+	X602 -- X601;
+	X602 -- X560;
+	X723 -- X714;
+	X723 -- X717;
+	X723 -- X719;
+	X723 -- X275;
+	X723 -- X341;
+	X723 -- X144;
+	X723 -- X343;
+	X723 -- X146;
+	X723 -- X278;
+	X723 -- X722;
+	X723 -- X282;
+	X723 -- X273;
+	X723 -- X284;
+	X603 -- X266;
+	X603 -- X268;
+	X603 -- X559;
+	X724 -- X723;
+	X724 -- X713;
+	X724 -- X718;
+	X724 -- X143;
+	X724 -- X276;
+	X724 -- X342;
+	X724 -- X145;
+	X724 -- X277;
+	X724 -- X344;
+	X724 -- X720;
+	X724 -- X721;
+	X724 -- X281;
+	X724 -- X283;
+	X724 -- X274;
+	X604 -- X265;
+	X604 -- X267;
+	X604 -- X603;
+	X604 -- X560;
+	X725 -- X155;
+	X725 -- X157;
+	X725 -- X345;
+	X725 -- X347;
+	X725 -- X339;
+	X605 -- X562;
+	X605 -- X472;
+	X726 -- X156;
+	X726 -- X158;
+	X726 -- X346;
+	X726 -- X348;
+	X726 -- X725;
+	X726 -- X340;
+	X606 -- X561;
+	X606 -- X605;
+	X606 -- X471;
+	X727 -- X155;
+	X727 -- X157;
+	X727 -- X345;
+	X727 -- X347;
+	X727 -- X339;
+	X727 -- X726;
+	X607 -- X584;
+	X607 -- X555;
+	X728 -- X156;
+	X728 -- X158;
+	X728 -- X346;
+	X728 -- X348;
+	X728 -- X725;
+	X728 -- X727;
+	X728 -- X340;
+	X608 -- X583;
+	X608 -- X556;
+	X608 -- X607;
+	X81 -- X80;
+	X80 -- X79;
+	X83 -- X765;
+	X83 -- X613;
+	X83 -- X748;
+	X82 -- X81;
+	X82 -- X79;
+	X85 -- X84;
+	X85 -- X765;
+	X85 -- X613;
+	X85 -- X748;
+	X84 -- X83;
+	X84 -- X766;
+	X84 -- X614;
+	X84 -- X747;
+	X86 -- X83;
+	X86 -- X85;
+	X86 -- X766;
+	X86 -- X614;
+	X86 -- X747;
+	X733 -- X387;
+	X733 -- X547;
+	X733 -- X383;
+	X713 -- X341;
+	X713 -- X583;
+	X713 -- X144;
+	X713 -- X276;
+	X713 -- X343;
+	X713 -- X146;
+	X713 -- X278;
+	X713 -- X555;
+	X713 -- X270;
+	X713 -- X282;
+	X713 -- X272;
+	X713 -- X284;
+	X713 -- X274;
+	X714 -- X713;
+	X714 -- X143;
+	X714 -- X275;
+	X714 -- X342;
+	X714 -- X584;
+	X714 -- X145;
+	X714 -- X277;
+	X714 -- X344;
+	X714 -- X269;
+	X714 -- X556;
+	X714 -- X281;
+	X714 -- X271;
+	X714 -- X283;
+	X714 -- X273;
+	X835 -- X652;
+	X835 -- X67;
+	X835 -- X69;
+	X715 -- X642;
+	X715 -- X644;
+	X715 -- X152;
+	X715 -- X296;
+	X836 -- X70;
+	X836 -- X651;
+	X836 -- X835;
+	X836 -- X68;
+	X716 -- X641;
+	X716 -- X643;
+	X716 -- X715;
+	X716 -- X151;
+	X716 -- X295;
+	X837 -- X835;
+	X717 -- X714;
+	X717 -- X143;
+	X717 -- X583;
+	X717 -- X276;
+	X717 -- X145;
+	X717 -- X278;
+	X717 -- X555;
+	X717 -- X270;
+	X717 -- X272;
+	X717 -- X274;
+	X838 -- X836;
+	X838 -- X837;
+	X718 -- X713;
+	X718 -- X717;
+	X718 -- X275;
+	X718 -- X144;
+	X718 -- X584;
+	X718 -- X277;
+	X718 -- X146;
+	X718 -- X269;
+	X718 -- X556;
+	X718 -- X271;
+	X718 -- X273;
+	X719 -- X714;
+	X719 -- X718;
+	X719 -- X143;
+	X719 -- X583;
+	X719 -- X276;
+	X719 -- X145;
+	X719 -- X278;
+	X719 -- X555;
+	X719 -- X270;
+	X719 -- X272;
+	X719 -- X274;
+	X720 -- X713;
+	X720 -- X717;
+	X720 -- X719;
+	X720 -- X275;
+	X720 -- X144;
+	X720 -- X584;
+	X720 -- X277;
+	X720 -- X146;
+	X720 -- X269;
+	X720 -- X556;
+	X720 -- X271;
+	X720 -- X273;
+	X600 -- X321;
+	X600 -- X323;
+	X600 -- X599;
+	X600 -- X557;
+	X600 -- X13;
+	X600 -- X15;
+	X721 -- X714;
+	X721 -- X717;
+	X721 -- X719;
+	X721 -- X275;
+	X721 -- X341;
+	X721 -- X144;
+	X721 -- X343;
+	X721 -- X146;
+	X721 -- X278;
+	X721 -- X282;
+	X721 -- X273;
+	X721 -- X284;
+	X601 -- X596;
+	X601 -- X565;
+	X601 -- X559;
+	X722 -- X713;
+	X722 -- X718;
+	X722 -- X143;
+	X722 -- X276;
+	X722 -- X342;
+	X722 -- X145;
+	X722 -- X277;
+	X722 -- X344;
+	X722 -- X720;
+	X722 -- X721;
+	X722 -- X281;
+	X722 -- X283;
+	X722 -- X274;
+	X624 -- X623;
+	X624 -- X581;
+	X745 -- X585;
+	X745 -- X566;
+	X745 -- X588;
+	X745 -- X599;
+	X625 -- X621;
+	X625 -- X579;
+	X625 -- X624;
+	X746 -- X586;
+	X746 -- X565;
+	X746 -- X600;
+	X746 -- X745;
+	X867 -- X50;
+	X867 -- X51;
+	X867 -- X106;
+	X867 -- X23;
+	X626 -- X622;
+	X626 -- X623;
+	X626 -- X625;
+	X626 -- X580;
+	X747 -- X663;
+	X747 -- X743;
+	X747 -- X613;
+	X868 -- X52;
+	X868 -- X105;
+	X868 -- X867;
+	X868 -- X24;
+	X868 -- X49;
+	X748 -- X664;
+	X748 -- X744;
+	X748 -- X614;
+	X748 -- X747;
+	X629 -- X269;
+	X629 -- X291;
+	X629 -- X271;
+	X630 -- X270;
+	X630 -- X292;
+	X630 -- X272;
+	X630 -- X629;
+	X631 -- X630;
+	X631 -- X593;
+	X632 -- X594;
+	X632 -- X631;
+	X632 -- X629;
+	X633 -- X330;
+	X633 -- X592;
+	X633 -- X351;
+	X634 -- X352;
+	X634 -- X633;
+	X634 -- X329;
+	X634 -- X591;
+	X876 -- X875;
+	X613 -- X594;
+	X613 -- X598;
+	X613 -- X558;
+	X734 -- X388;
+	X734 -- X733;
+	X734 -- X384;
+	X614 -- X597;
+	X614 -- X557;
+	X614 -- X613;
+	X614 -- X593;
+	X616 -- X615;
+	X617 -- X596;
+	X617 -- X589;
+	X617 -- X616;
+	X618 -- X595;
+	X618 -- X615;
+	X618 -- X590;
+	X618 -- X617;
+	X619 -- X563;
+	X619 -- X401;
+	X619 -- X117;
+	X619 -- X119;
+	X619 -- X616;
+	X620 -- X564;
+	X620 -- X402;
+	X620 -- X118;
+	X620 -- X615;
+	X620 -- X619;
+	X620 -- X120;
+	X741 -- X378;
+	X741 -- X181;
+	X741 -- X406;
+	X621 -- X562;
+	X621 -- X233;
+	X621 -- X578;
+	X621 -- X580;
+	X621 -- X350;
+	X621 -- X592;
+	X742 -- X377;
+	X742 -- X741;
+	X742 -- X369;
+	X742 -- X405;
+	X742 -- X182;
+	X622 -- X561;
+	X622 -- X234;
+	X622 -- X577;
+	X622 -- X621;
+	X622 -- X579;
+	X622 -- X349;
+	X622 -- X591;
+	X743 -- X264;
+	X743 -- X664;
+	X743 -- X326;
+	X743 -- X328;
+	X744 -- X663;
+	X744 -- X325;
+	X744 -- X743;
+	X744 -- X327;
+	X744 -- X263;
+	X646 -- X265;
+	X646 -- X267;
+	X646 -- X645;
+	X767 -- X322;
+	X767 -- X324;
+	X767 -- X665;
+	X767 -- X600;
+	X767 -- X558;
+	X767 -- X14;
+	X767 -- X16;
+	X405 -- X378;
+	X405 -- X181;
+	X405 -- X183;
+	X405 -- X370;
+	X526 -- X525;
+	X768 -- X321;
+	X768 -- X323;
+	X768 -- X599;
+	X768 -- X666;
+	X768 -- X557;
+	X768 -- X767;
+	X768 -- X13;
+	X768 -- X15;
+	X406 -- X377;
+	X406 -- X369;
+	X406 -- X405;
+	X406 -- X182;
+	X406 -- X184;
+	X769 -- X563;
+	X770 -- X564;
+	X770 -- X769;
+	X771 -- X398;
+	X771 -- X388;
+	X771 -- X482;
+	X651 -- X496;
+	X651 -- X104;
+	X772 -- X397;
+	X772 -- X771;
+	X772 -- X387;
+	X772 -- X481;
+	X893 -- X51;
+	X893 -- X868;
+	X652 -- X495;
+	X652 -- X651;
+	X652 -- X103;
+	X773 -- X742;
+	X894 -- X893;
+	X894 -- X52;
+	X894 -- X867;
+	X653 -- X377;
+	X653 -- X218;
+	X653 -- X192;
+	X653 -- X194;
+	X774 -- X773;
+	X774 -- X741;
+	X533 -- X368;
+	X654 -- X378;
+	X654 -- X653;
+	X654 -- X217;
+	X654 -- X191;
+	X654 -- X193;
+	X534 -- X367;
+	X534 -- X533;
+	X535 -- X534;
+	X635 -- X565;
+	X635 -- X634;
+	X635 -- X602;
+	X635 -- X559;
+	X877 -- X876;
+	X877 -- X867;
+	X636 -- X566;
+	X636 -- X633;
+	X636 -- X601;
+	X636 -- X635;
+	X636 -- X560;
+	X757 -- X573;
+	X878 -- X875;
+	X878 -- X877;
+	X878 -- X868;
+	X637 -- X526;
+	X758 -- X574;
+	X758 -- X757;
+	X879 -- X70;
+	X879 -- X876;
+	X879 -- X835;
+	X879 -- X68;
+	X517 -- X237;
+	X517 -- X303;
+	X517 -- X305;
+	X517 -- X349;
+	X517 -- X309;
+	X517 -- X285;
+	X638 -- X637;
+	X759 -- X576;
+	X759 -- X757;
+	X518 -- X286;
+	X518 -- X310;
+	X518 -- X238;
+	X518 -- X304;
+	X518 -- X306;
+	X518 -- X517;
+	X518 -- X350;
+	X639 -- X623;
+	X639 -- X526;
+	X639 -- X638;
+	X639 -- X581;
+	X880 -- X875;
+	X880 -- X67;
+	X880 -- X69;
+	X880 -- X879;
+	X880 -- X836;
+	X760 -- X575;
+	X760 -- X758;
+	X760 -- X759;
+	X881 -- X51;
+	X881 -- X53;
+	X881 -- X867;
+	X881 -- X878;
+	X640 -- X525;
+	X640 -- X624;
+	X640 -- X637;
+	X640 -- X639;
+	X640 -- X582;
+	X882 -- X881;
+	X882 -- X52;
+	X882 -- X54;
+	X882 -- X877;
+	X882 -- X868;
+	X520 -- X519;
+	X641 -- X154;
+	X641 -- X311;
+	X641 -- X575;
+	X641 -- X313;
+	X641 -- X152;
+	X641 -- X296;
+	X642 -- X641;
+	X642 -- X312;
+	X642 -- X576;
+	X642 -- X314;
+	X642 -- X151;
+	X642 -- X295;
+	X642 -- X153;
+	X763 -- X368;
+	X763 -- X325;
+	X763 -- X534;
+	X763 -- X743;
+	X763 -- X327;
+	X763 -- X263;
+	X401 -- X118;
+	X401 -- X120;
+	X643 -- X154;
+	X643 -- X311;
+	X643 -- X575;
+	X643 -- X642;
+	X643 -- X313;
+	X643 -- X152;
+	X643 -- X296;
+	X764 -- X264;
+	X764 -- X367;
+	X764 -- X763;
+	X764 -- X533;
+	X764 -- X326;
+	X764 -- X744;
+	X764 -- X328;
+	X402 -- X401;
+	X402 -- X117;
+	X402 -- X119;
+	X644 -- X641;
+	X644 -- X312;
+	X644 -- X576;
+	X644 -- X643;
+	X644 -- X314;
+	X644 -- X151;
+	X644 -- X295;
+	X644 -- X153;
+	X765 -- X614;
+	X765 -- X747;
+	X645 -- X266;
+	X645 -- X268;
+	X766 -- X765;
+	X766 -- X613;
+	X766 -- X748;
+	X305 -- X286;
+	X305 -- X300;
+	X305 -- X302;
+	X305 -- X238;
+	X305 -- X304;
+	X547 -- X388;
+	X547 -- X384;
+	X668 -- X119;
+	X668 -- X154;
+	X668 -- X563;
+	X668 -- X311;
+	X668 -- X575;
+	X668 -- X620;
+	X668 -- X642;
+	X668 -- X313;
+	X668 -- X401;
+	X668 -- X644;
+	X668 -- X117;
+	X668 -- X667;
+	X789 -- X787;
+	X306 -- X299;
+	X306 -- X301;
+	X306 -- X237;
+	X306 -- X303;
+	X306 -- X305;
+	X306 -- X285;
+	X548 -- X387;
+	X548 -- X547;
+	X548 -- X383;
+	X308 -- X307;
+	X309 -- X286;
+	X309 -- X238;
+	X309 -- X304;
+	X309 -- X306;
+	X309 -- X307;
+	X671 -- X300;
+	X671 -- X302;
+	X671 -- X304;
+	X671 -- X306;
+	X792 -- X790;
+	X792 -- X791;
+	X672 -- X671;
+	X672 -- X299;
+	X672 -- X301;
+	X672 -- X303;
+	X672 -- X305;
+	X793 -- X791;
+	X310 -- X237;
+	X310 -- X303;
+	X310 -- X305;
+	X310 -- X308;
+	X310 -- X309;
+	X310 -- X285;
+	X794 -- X792;
+	X794 -- X793;
+	X311 -- X310;
+	X311 -- X307;
+	X311 -- X153;
+	X795 -- X793;
+	X312 -- X154;
+	X312 -- X311;
+	X312 -- X308;
+	X312 -- X309;
+	X796 -- X794;
+	X796 -- X795;
+	X313 -- X310;
+	X313 -- X312;
+	X313 -- X307;
+	X313 -- X153;
+	X555 -- X275;
+	X555 -- X277;
+	X555 -- X269;
+	X555 -- X271;
+	X555 -- X273;
+	X797 -- X795;
+	X314 -- X154;
+	X314 -- X311;
+	X314 -- X313;
+	X314 -- X308;
+	X314 -- X309;
+	X556 -- X276;
+	X556 -- X278;
+	X556 -- X555;
+	X556 -- X270;
+	X556 -- X272;
+	X556 -- X274;
+	X798 -- X796;
+	X798 -- X797;
+	X436 -- X435;
+	X557 -- X322;
+	X557 -- X324;
+	X557 -- X14;
+	X557 -- X16;
+	X799 -- X797;
+	X790 -- X788;
+	X790 -- X789;
+	X791 -- X789;
+	X536 -- X533;
+	X536 -- X535;
+	X661 -- X645;
+	X662 -- X661;
+	X662 -- X646;
+	X783 -- X397;
+	X783 -- X771;
+	X783 -- X387;
+	X783 -- X475;
+	X783 -- X435;
+	X783 -- X481;
+	X300 -- X210;
+	X300 -- X299;
+	X300 -- X212;
+	X300 -- X213;
+	X300 -- X205;
+	X784 -- X398;
+	X784 -- X772;
+	X784 -- X783;
+	X784 -- X388;
+	X784 -- X476;
+	X784 -- X436;
+	X784 -- X482;
+	X301 -- X211;
+	X301 -- X300;
+	X301 -- X214;
+	X301 -- X206;
+	X301 -- X209;
+	X664 -- X663;
+	X785 -- X594;
+	X785 -- X598;
+	X785 -- X665;
+	X785 -- X558;
+	X785 -- X614;
+	X302 -- X210;
+	X302 -- X299;
+	X302 -- X212;
+	X302 -- X213;
+	X302 -- X301;
+	X302 -- X205;
+	X665 -- X613;
+	X665 -- X321;
+	X665 -- X597;
+	X665 -- X323;
+	X665 -- X599;
+	X665 -- X557;
+	X665 -- X13;
+	X665 -- X15;
+	X665 -- X593;
+	X786 -- X597;
+	X786 -- X785;
+	X786 -- X666;
+	X786 -- X557;
+	X786 -- X613;
+	X786 -- X593;
+	X303 -- X286;
+	X303 -- X300;
+	X303 -- X302;
+	X303 -- X238;
+	X666 -- X558;
+	X666 -- X614;
+	X666 -- X594;
+	X666 -- X322;
+	X666 -- X598;
+	X666 -- X324;
+	X666 -- X665;
+	X666 -- X600;
+	X666 -- X14;
+	X666 -- X16;
+	X787 -- X556;
+	X787 -- X607;
+	X304 -- X299;
+	X304 -- X301;
+	X304 -- X237;
+	X304 -- X303;
+	X304 -- X285;
+	X667 -- X118;
+	X667 -- X619;
+	X667 -- X564;
+	X667 -- X641;
+	X667 -- X312;
+	X667 -- X576;
+	X667 -- X643;
+	X667 -- X314;
+	X667 -- X402;
+	X667 -- X120;
+	X667 -- X153;
+	X788 -- X555;
+	X788 -- X787;
+	X788 -- X608;
+	X206 -- X205;
+	X327 -- X264;
+	X327 -- X216;
+	X327 -- X326;
+	X328 -- X215;
+	X328 -- X325;
+	X328 -- X327;
+	X328 -- X263;
+	X449 -- X180;
+	X449 -- X406;
+	X449 -- X439;
+	X209 -- X154;
+	X209 -- X205;
+	X209 -- X151;
+	X330 -- X329;
+	X210 -- X206;
+	X210 -- X209;
+	X210 -- X152;
+	X210 -- X153;
+	X211 -- X154;
+	X211 -- X210;
+	X211 -- X205;
+	X211 -- X151;
+	X574 -- X573;
+	X212 -- X211;
+	X212 -- X206;
+	X212 -- X209;
+	X212 -- X152;
+	X212 -- X153;
+	X575 -- X312;
+	X575 -- X314;
+	X575 -- X153;
+	X213 -- X211;
+	X213 -- X206;
+	X213 -- X209;
+	X576 -- X154;
+	X576 -- X311;
+	X576 -- X575;
+	X576 -- X313;
+	X214 -- X210;
+	X214 -- X212;
+	X214 -- X213;
+	X214 -- X205;
+	X577 -- X350;
+	X578 -- X577;
+	X578 -- X349;
+	X216 -- X215;
+	X450 -- X440;
+	X450 -- X179;
+	X450 -- X405;
+	X450 -- X449;
+	X558 -- X321;
+	X558 -- X323;
+	X558 -- X557;
+	X558 -- X13;
+	X558 -- X15;
+	X559 -- X265;
+	X559 -- X267;
+	X439 -- X179;
+	X440 -- X180;
+	X440 -- X439;
+	X561 -- X233;
+	X561 -- X350;
+	X562 -- X561;
+	X562 -- X234;
+	X562 -- X349;
+	X321 -- X14;
+	X321 -- X16;
+	X563 -- X402;
+	X563 -- X118;
+	X563 -- X120;
+	X322 -- X321;
+	X322 -- X13;
+	X322 -- X15;
+	X564 -- X563;
+	X564 -- X401;
+	X564 -- X117;
+	X323 -- X322;
+	X323 -- X14;
+	X323 -- X16;
+	X565 -- X560;
+	X324 -- X321;
+	X324 -- X323;
+	X324 -- X13;
+	X324 -- X15;
+	X566 -- X565;
+	X566 -- X559;
+	X325 -- X264;
+	X325 -- X216;
+	X326 -- X215;
+	X326 -- X325;
+	X326 -- X263;
+	X560 -- X266;
+	X560 -- X268;
+	X560 -- X559;
+	X349 -- X233;
+	X349 -- X238;
+	X352 -- X330;
+	X352 -- X235;
+	X352 -- X351;
+	X594 -- X557;
+	X594 -- X593;
+	X595 -- X589;
+	X475 -- X359;
+	X475 -- X436;
+	X596 -- X595;
+	X596 -- X590;
+	X234 -- X233;
+	X476 -- X475;
+	X476 -- X435;
+	X476 -- X360;
+	X597 -- X594;
+	X597 -- X558;
+	X597 -- X519;
+	X235 -- X234;
+	X356 -- X355;
+	X477 -- X376;
+	X477 -- X377;
+	X477 -- X369;
+	X477 -- X405;
+	X477 -- X192;
+	X477 -- X182;
+	X477 -- X194;
+	X477 -- X184;
+	X598 -- X520;
+	X598 -- X597;
+	X598 -- X557;
+	X598 -- X593;
+	X236 -- X233;
+	X236 -- X235;
+	X478 -- X375;
+	X478 -- X378;
+	X478 -- X477;
+	X478 -- X191;
+	X478 -- X181;
+	X478 -- X406;
+	X478 -- X193;
+	X478 -- X183;
+	X478 -- X370;
+	X599 -- X322;
+	X599 -- X324;
+	X599 -- X558;
+	X599 -- X14;
+	X599 -- X16;
+	X358 -- X357;
+	X238 -- X237;
+	X359 -- X355;
+	X590 -- X589;
+	X591 -- X330;
+	X591 -- X562;
+	X591 -- X233;
+	X591 -- X350;
+	X591 -- X351;
+	X350 -- X234;
+	X350 -- X237;
+	X350 -- X349;
+	X592 -- X352;
+	X592 -- X561;
+	X592 -- X234;
+	X592 -- X577;
+	X592 -- X349;
+	X592 -- X329;
+	X592 -- X591;
+	X351 -- X236;
+	X351 -- X329;
+	X472 -- X471;
+	X593 -- X558;
+	X218 -- X217;
+	X339 -- X156;
+	X339 -- X158;
+	X341 -- X143;
+	X341 -- X145;
+	X341 -- X156;
+	X341 -- X277;
+	X341 -- X158;
+	X341 -- X281;
+	X341 -- X283;
+	X583 -- X275;
+	X583 -- X277;
+	X583 -- X269;
+	X583 -- X556;
+	X583 -- X271;
+	X583 -- X273;
+	X342 -- X341;
+	X342 -- X144;
+	X342 -- X155;
+	X342 -- X146;
+	X342 -- X157;
+	X342 -- X278;
+	X342 -- X282;
+	X342 -- X284;
+	X584 -- X583;
+	X584 -- X276;
+	X584 -- X278;
+	X584 -- X555;
+	X584 -- X270;
+	X584 -- X272;
+	X584 -- X274;
+	X343 -- X143;
+	X343 -- X342;
+	X343 -- X145;
+	X343 -- X156;
+	X343 -- X277;
+	X343 -- X158;
+	X343 -- X281;
+	X343 -- X283;
+	X585 -- X565;
+	X344 -- X341;
+	X344 -- X144;
+	X344 -- X155;
+	X344 -- X343;
+	X344 -- X146;
+	X344 -- X157;
+	X344 -- X278;
+	X344 -- X282;
+	X344 -- X284;
+	X586 -- X585;
+	X586 -- X566;
+	X345 -- X341;
+	X345 -- X155;
+	X345 -- X343;
+	X345 -- X157;
+	X345 -- X340;
+	X587 -- X585;
+	X587 -- X566;
+	X104 -- X103;
+	X346 -- X342;
+	X346 -- X156;
+	X346 -- X344;
+	X346 -- X158;
+	X346 -- X345;
+	X346 -- X339;
+	X588 -- X586;
+	X588 -- X565;
+	X588 -- X587;
+	X105 -- X104;
+	X347 -- X341;
+	X347 -- X155;
+	X347 -- X343;
+	X347 -- X157;
+	X347 -- X346;
+	X347 -- X340;
+	X106 -- X103;
+	X106 -- X105;
+	X348 -- X342;
+	X348 -- X156;
+	X348 -- X344;
+	X348 -- X158;
+	X348 -- X345;
+	X348 -- X347;
+	X348 -- X339;
+	X580 -- X579;
+	X340 -- X155;
+	X340 -- X157;
+	X340 -- X339;
+	X582 -- X581;
+	X129 -- X127;
+	X495 -- X104;
+	X375 -- X192;
+	X375 -- X194;
+	X375 -- X370;
+	X375 -- X372;
+	X496 -- X495;
+	X496 -- X103;
+	X376 -- X375;
+	X376 -- X369;
+	X376 -- X191;
+	X376 -- X193;
+	X376 -- X371;
+	X377 -- X217;
+	X377 -- X181;
+	X377 -- X183;
+	X377 -- X370;
+	X378 -- X377;
+	X378 -- X369;
+	X378 -- X218;
+	X378 -- X182;
+	X378 -- X184;
+	X370 -- X369;
+	X370 -- X182;
+	X370 -- X184;
+	X491 -- X24;
+	X371 -- X370;
+	X492 -- X23;
+	X492 -- X491;
+	X130 -- X128;
+	X130 -- X129;
+	X372 -- X369;
+	X372 -- X371;
+	X493 -- X24;
+	X493 -- X492;
+	X494 -- X23;
+	X494 -- X491;
+	X494 -- X493;
+	X118 -- X117;
+	X119 -- X118;
+	X363 -- X355;
+	X363 -- X360;
+	X363 -- X361;
+	X364 -- X363;
+	X364 -- X356;
+	X364 -- X359;
+	X364 -- X362;
+	X365 -- X363;
+	X365 -- X356;
+	X365 -- X359;
+	X366 -- X364;
+	X366 -- X365;
+	X366 -- X355;
+	X366 -- X360;
+	X367 -- X364;
+	X367 -- X365;
+	X367 -- X355;
+	X367 -- X360;
+	X368 -- X363;
+	X368 -- X366;
+	X368 -- X356;
+	X368 -- X367;
+	X368 -- X359;
+	X369 -- X181;
+	X369 -- X183;
+	X128 -- X127;
+	X360 -- X356;
+	X360 -- X359;
+	X481 -- X398;
+	X481 -- X388;
+	X481 -- X476;
+	X481 -- X436;
+	X361 -- X357;
+	X482 -- X397;
+	X482 -- X387;
+	X482 -- X475;
+	X482 -- X435;
+	X482 -- X481;
+	X120 -- X117;
+	X120 -- X119;
+	X362 -- X358;
+	X362 -- X361;
+	X154 -- X152;
+	X154 -- X153;
+	X275 -- X143;
+	X275 -- X145;
+	X275 -- X270;
+	X275 -- X272;
+	X275 -- X274;
+	X276 -- X275;
+	X276 -- X144;
+	X276 -- X146;
+	X276 -- X269;
+	X276 -- X271;
+	X276 -- X273;
+	X397 -- X388;
+	X156 -- X155;
+	X277 -- X144;
+	X277 -- X276;
+	X277 -- X146;
+	X277 -- X270;
+	X277 -- X272;
+	X277 -- X274;
+	X398 -- X397;
+	X398 -- X387;
+	X157 -- X156;
+	X278 -- X143;
+	X278 -- X275;
+	X278 -- X145;
+	X278 -- X277;
+	X278 -- X269;
+	X278 -- X271;
+	X278 -- X273;
+	X158 -- X155;
+	X158 -- X157;
+	X270 -- X269;
+	X271 -- X270;
+	X272 -- X269;
+	X272 -- X271;
+	X152 -- X151;
+	X273 -- X143;
+	X273 -- X145;
+	X273 -- X270;
+	X273 -- X272;
+	X153 -- X151;
+	X274 -- X144;
+	X274 -- X146;
+	X274 -- X269;
+	X274 -- X271;
+	X274 -- X273;
+	X264 -- X263;
+	X144 -- X143;
+	X145 -- X144;
+	X266 -- X265;
+	X387 -- X384;
+	X146 -- X143;
+	X146 -- X145;
+	X267 -- X266;
+	X388 -- X387;
+	X388 -- X383;
+	X268 -- X265;
+	X268 -- X267;
+	X262 -- X261;
+	X384 -- X383;
+	X299 -- X211;
+	X299 -- X214;
+	X299 -- X206;
+	X299 -- X209;
+	X290 -- X289;
+	X291 -- X290;
+	X291 -- X270;
+	X291 -- X272;
+	X292 -- X289;
+	X292 -- X269;
+	X292 -- X291;
+	X292 -- X271;
+	X294 -- X293;
+	X295 -- X152;
+	X296 -- X151;
+	X296 -- X295;
+	X286 -- X237;
+	X286 -- X285;
+	X288 -- X287;
+	X281 -- X144;
+	X281 -- X146;
+	X281 -- X278;
+	X282 -- X143;
+	X282 -- X145;
+	X282 -- X277;
+	X282 -- X281;
+	X283 -- X144;
+	X283 -- X146;
+	X283 -- X278;
+	X283 -- X282;
+	X284 -- X143;
+	X284 -- X145;
+	X284 -- X277;
+	X284 -- X281;
+	X284 -- X283;
+	X285 -- X238;
+	X192 -- X191;
+	X193 -- X192;
+	X194 -- X191;
+	X194 -- X193;
+	X180 -- X179;
+	X182 -- X181;
+	X183 -- X179;
+	X183 -- X182;
+	X184 -- X180;
+	X184 -- X181;
+	X184 -- X183;
+}
+
+Starting the algorithm...
+var `X293' = 478
+var `X294' = 240
+var `X261' = 338
+var `X262' = 100
+var `X287' = 708
+var `X288' = 470
+var `X129' = 366
+var `X127' = 100
+var `X128' = 708
+var `X130' = 128
+var `X82' = 498
+var `X79' = 282
+var `X80' = 778
+var `X81' = 128
+var `X837' = 324
+var `X838' = 86
+var `X67' = 512
+var `X69' = 428
+var `X836' = 352
+var `X904' = 16
+var `X70' = 310
+var `X835' = 736
+var `X68' = 694
+var `X879' = 428
+var `X496' = 722
+var `X652' = 792
+var `X495' = 666
+var `X651' = 652
+var `X104' = 268
+var `X880' = 680
+var `X903' = 254
+var `X875' = 456
+var `X876' = 114
+var `X23' = 778
+var `X103' = 310
+var `X491' = 722
+var `X493' = 296
+var `X877' = 310
+var `X106' = 142
+var `X881' = 100
+var `X50' = 708
+var `X54' = 484
+var `X492' = 484
+var `X494' = 58
+var `X894' = 100
+var `X868' = 708
+var `X51' = 484
+var `X53' = 30
+var `X882' = 338
+var `X893' = 338
+var `X52' = 652
+var `X105' = 428
+var `X867' = 428
+var `X878' = 680
+var `X24' = 540
+var `X49' = 142
+var `X180' = 366
+var `X179' = 30
+var `X181' = 86
+var `X183' = 72
+var `X191' = 44
+var `X182' = 58
+var `X184' = 652
+var `X774' = 114
+var `X439' = 128
+var `X912' = 100
+var `X827' = 456
+var `X815' = 338
+var `X742' = 722
+var `X450' = 30
+var `X217' = 526
+var `X372' = 72
+var `X818' = 470
+var `X440' = 666
+var `X911' = 156
+var `X828' = 86
+var `X378' = 708
+var `X406' = 142
+var `X370' = 428
+var `X653' = 282
+var `X654' = 366
+var `X218' = 114
+var `X376' = 694
+var `X192' = 666
+var `X194' = 512
+var `X773' = 352
+var `X741' = 666
+var `X449' = 352
+var `X477' = 310
+var `X193' = 484
+var `X377' = 456
+var `X478' = 428
+var `X405' = 708
+var `X375' = 58
+var `X369' = 456
+var `X371' = 72
+var `X816' = 100
+var `X817' = 268
+var `X383' = 722
+var `X547' = 296
+var `X734' = 30
+var `X733' = 380
+var `X548' = 58
+var `X384' = 484
+var `X397' = 708
+var `X771' = 338
+var `X387' = 484
+var `X398' = 352
+var `X772' = 512
+var `X388' = 58
+var `X358' = 366
+var `X784' = 512
+var `X435' = 694
+var `X481' = 142
+var `X357' = 142
+var `X783' = 470
+var `X436' = 380
+var `X482' = 114
+var `X361' = 736
+var `X362' = 72
+var `X475' = 128
+var `X476' = 114
+var `X661' = 86
+var `X573' = 72
+var `X662' = 72
+var `X574' = 58
+var `X616' = 484
+var `X758' = 380
+var `X757' = 470
+var `X615' = 722
+var `X830' = 30
+var `X770' = 114
+var `X829' = 338
+var `X769' = 352
+var `X355' = 324
+var `X360' = 352
+var `X364' = 44
+var `X365' = 324
+var `X536' = 540
+var `X363' = 268
+var `X356' = 282
+var `X359' = 142
+var `X366' = 366
+var `X535' = 736
+var `X589' = 750
+var `X618' = 30
+var `X646' = 114
+var `X590' = 512
+var `X617' = 268
+var `X645' = 86
+var `X525' = 722
+var `X596' = 470
+var `X368' = 30
+var `X534' = 142
+var `X582' = 498
+var `X637' = 72
+var `X367' = 352
+var `X533' = 526
+var `X215' = 484
+var `X526' = 484
+var `X638' = 526
+var `X216' = 442
+var `X266' = 338
+var `X268' = 296
+var `X604' = 30
+var `X587' = 736
+var `X759' = 58
+var `X265' = 428
+var `X267' = 352
+var `X603' = 100
+var `X119' = 680
+var `X117' = 100
+var `X760' = 72
+var `X563' = 44
+var `X401' = 470
+var `X151' = 652
+var `X118' = 708
+var `X120' = 352
+var `X595' = 442
+var `X716' = 352
+var `X825' = 142
+var `X620' = 296
+var `X715' = 680
+var `X826' = 540
+var `X619' = 128
+var `X296' = 792
+var `X295' = 722
+var `X210' = 128
+var `X212' = 366
+var `X213' = 512
+var `X205' = 778
+var `X152' = 694
+var `X154' = 380
+var `X642' = 142
+var `X644' = 470
+var `X667' = 394
+var `X641' = 512
+var `X643' = 72
+var `X668' = 540
+var `X153' = 366
+var `X211' = 708
+var `X214' = 72
+var `X206' = 442
+var `X209' = 666
+var `X564' = 296
+var `X402' = 142
+var `X575' = 456
+var `X576' = 128
+var `X585' = 30
+var `X588' = 282
+var `X325' = 254
+var `X327' = 128
+var `X263' = 72
+var `X764' = 736
+var `X586' = 456
+var `X264' = 44
+var `X326' = 30
+var `X328' = 736
+var `X763' = 498
+var `X565' = 484
+var `X602' = 484
+var `X559' = 764
+var `X566' = 114
+var `X560' = 268
+var `X601' = 442
+var `X640' = 484
+var `X581' = 736
+var `X639' = 268
+var `X624' = 86
+var `X471' = 352
+var `X623' = 708
+var `X472' = 694
+var `X746' = 86
+var `X663' = 666
+var `X743' = 722
+var `X745' = 512
+var `X664' = 114
+var `X744' = 30
+var `X311' = 540
+var `X313' = 352
+var `X308' = 156
+var `X671' = 114
+var `X299' = 394
+var `X301' = 526
+var `X672' = 282
+var `X300' = 512
+var `X302' = 16
+var `X312' = 352
+var `X314' = 296
+var `X307' = 254
+var `X635' = 456
+var `X636' = 268
+var `X303' = 512
+var `X305' = 540
+var `X309' = 442
+var `X285' = 254
+var `X286' = 128
+var `X310' = 86
+var `X304' = 114
+var `X306' = 680
+var `X321' = 428
+var `X323' = 652
+var `X13' = 254
+var `X15' = 310
+var `X84' = 652
+var `X86' = 366
+var `X520' = 428
+var `X767' = 666
+var `X599' = 44
+var `X765' = 282
+var `X748' = 352
+var `X519' = 666
+var `X322' = 324
+var `X324' = 694
+var `X14' = 128
+var `X16' = 254
+var `X83' = 30
+var `X85' = 498
+var `X768' = 142
+var `X600' = 114
+var `X766' = 708
+var `X747' = 736
+var `X237' = 58
+var `X236' = 456
+var `X235' = 366
+var `X558' = 352
+var `X597' = 484
+var `X785' = 86
+var `X666' = 380
+var `X557' = 338
+var `X613' = 72
+var `X598' = 470
+var `X665' = 114
+var `X786' = 722
+var `X614' = 338
+var `X330' = 380
+var `X634' = 352
+var `X606' = 86
+var `X518' = 296
+var `X351' = 456
+var `X238' = 366
+var `X517' = 470
+var `X579' = 680
+var `X352' = 750
+var `X329' = 366
+var `X633' = 366
+var `X561' = 456
+var `X234' = 540
+var `X577' = 554
+var `X349' = 352
+var `X591' = 338
+var `X625' = 526
+var `X605' = 680
+var `X626' = 484
+var `X621' = 526
+var `X580' = 442
+var `X233' = 778
+var `X350' = 30
+var `X562' = 142
+var `X578' = 394
+var `X622' = 512
+var `X592' = 442
+var `X593' = 764
+var `X594' = 324
+var `X632' = 470
+var `X802' = 114
+var `X800' = 30
+var `X801' = 484
+var `X631' = 296
+var `X799' = 268
+var `X339' = 310
+var `X156' = 114
+var `X158' = 736
+var `X630' = 722
+var `X340' = 736
+var `X269' = 114
+var `X629' = 72
+var `X143' = 352
+var `X145' = 526
+var `X155' = 540
+var `X157' = 554
+var `X144' = 428
+var `X146' = 442
+var `X797' = 666
+var `X796' = 512
+var `X798' = 428
+var `X793' = 324
+var `X795' = 58
+var `X792' = 456
+var `X794' = 86
+var `X726' = 100
+var `X728' = 310
+var `X289' = 428
+var `X789' = 680
+var `X791' = 778
+var `X345' = 86
+var `X347' = 736
+var `X291' = 484
+var `X788' = 764
+var `X790' = 58
+var `X290' = 72
+var `X342' = 554
+var `X344' = 128
+var `X281' = 128
+var `X283' = 456
+var `X725' = 296
+var `X727' = 114
+var `X713' = 484
+var `X584' = 380
+var `X277' = 736
+var `X556' = 526
+var `X271' = 30
+var `X607' = 72
+var `X608' = 680
+var `X787' = 694
+var `X292' = 484
+var `X723' = 338
+var `X721' = 44
+var `X346' = 86
+var `X348' = 58
+var `X717' = 296
+var `X719' = 114
+var `X275' = 456
+var `X273' = 30
+var `X718' = 156
+var `X583' = 722
+var `X276' = 366
+var `X555' = 142
+var `X720' = 352
+var `X270' = 736
+var `X272' = 428
+var `X274' = 484
+var `X341' = 792
+var `X343' = 778
+var `X278' = 540
+var `X722' = 554
+var `X724' = 498
+var `X714' = 512
+var `X282' = 484
+var `X284' = 338
+Total optimal cost: infinity
+Algorithm finished in 215 547 ms (simulated time)
+Number of messages sent (by type): 
+	improve:	190 400
+	ok:	190 400
+	- Total:	380 800
+Number of messages sent (by agent): 
+	A0:	3 200
+	A1:	12 800
+	A10:	3 200
+	A11:	7 600
+	A12:	800
+	A13:	800
+	A14:	5 600
+	A15:	15 200
+	A16:	3 200
+	A17:	16 800
+	A18:	3 600
+	A19:	11 600
+	A2:	2 000
+	A20:	5 200
+	A21:	8 400
+	A22:	2 000
+	A23:	12 400
+	A24:	3 200
+	A25:	6 400
+	A26:	3 200
+	A27:	5 600
+	A28:	2 800
+	A29:	36 800
+	A3:	3 600
+	A30:	2 000
+	A31:	7 200
+	A32:	4 800
+	A33:	39 200
+	A34:	2 000
+	A35:	5 200
+	A36:	2 800
+	A37:	7 600
+	A38:	1 600
+	A39:	2 400
+	A4:	2 000
+	A40:	10 000
+	A41:	14 800
+	A42:	10 000
+	A43:	32 800
+	A44:	1 600
+	A45:	1 200
+	A46:	1 600
+	A47:	1 600
+	A48:	3 600
+	A49:	5 600
+	A5:	3 600
+	A50:	31 200
+	A51:	400
+	A52:	400
+	A53:	400
+	A54:	400
+	A55:	400
+	A56:	400
+	A6:	800
+	A7:	800
+	A8:	2 000
+	A9:	4 400
+Number of messages received (by agent): 
+	A0:	3 200
+	A1:	12 800
+	A10:	3 200
+	A11:	7 600
+	A12:	800
+	A13:	800
+	A14:	5 600
+	A15:	15 200
+	A16:	3 200
+	A17:	16 800
+	A18:	3 600
+	A19:	11 600
+	A2:	2 000
+	A20:	5 200
+	A21:	8 400
+	A22:	2 000
+	A23:	12 400
+	A24:	3 200
+	A25:	6 400
+	A26:	3 200
+	A27:	5 600
+	A28:	2 800
+	A29:	36 800
+	A3:	3 600
+	A30:	2 000
+	A31:	7 200
+	A32:	4 800
+	A33:	39 200
+	A34:	2 000
+	A35:	5 200
+	A36:	2 800
+	A37:	7 600
+	A38:	1 600
+	A39:	2 400
+	A4:	2 000
+	A40:	10 000
+	A41:	14 800
+	A42:	10 000
+	A43:	32 800
+	A44:	1 600
+	A45:	1 200
+	A46:	1 600
+	A47:	1 600
+	A48:	3 600
+	A49:	5 600
+	A5:	3 600
+	A50:	31 200
+	A51:	400
+	A52:	400
+	A53:	400
+	A54:	400
+	A55:	400
+	A56:	400
+	A6:	800
+	A7:	800
+	A8:	2 000
+	A9:	4 400
+Amount of information sent (by type, in bytes): 
+	improve:	3 846 195
+	ok:	3 847 410
+	- Total:	7 693 605
+Amount of information sent (by agent, in bytes): 
+	A0:	65 196
+	A1:	257 492
+	A10:	65 201
+	A11:	153 338
+	A12:	16 422
+	A13:	16 514
+	A14:	112 818
+	A15:	304 935
+	A16:	64 806
+	A17:	337 660
+	A18:	72 808
+	A19:	232 986
+	A2:	40 494
+	A20:	104 862
+	A21:	168 947
+	A22:	40 405
+	A23:	249 799
+	A24:	64 829
+	A25:	128 983
+	A26:	66 010
+	A27:	114 513
+	A28:	56 409
+	A29:	741 752
+	A3:	73 075
+	A30:	40 405
+	A31:	145 938
+	A32:	96 814
+	A33:	788 920
+	A34:	41 195
+	A35:	105 698
+	A36:	57 245
+	A37:	153 894
+	A38:	32 508
+	A39:	48 986
+	A4:	40 402
+	A40:	202 788
+	A41:	299 368
+	A42:	202 207
+	A43:	660 801
+	A44:	32 821
+	A45:	24 980
+	A46:	32 844
+	A47:	32 844
+	A48:	73 759
+	A49:	114 200
+	A5:	72 962
+	A50:	628 608
+	A51:	8 489
+	A52:	8 397
+	A53:	8 489
+	A54:	8 397
+	A55:	8 489
+	A56:	8 397
+	A6:	16 418
+	A7:	16 418
+	A8:	40 796
+	A9:	88 874
+Amount of information received (by agent, in bytes): 
+	A0:	65 306
+	A1:	257 372
+	A10:	65 316
+	A11:	153 430
+	A12:	16 514
+	A13:	16 422
+	A14:	113 094
+	A15:	305 395
+	A16:	64 944
+	A17:	337 637
+	A18:	72 969
+	A19:	233 101
+	A2:	40 603
+	A20:	105 046
+	A21:	169 131
+	A22:	40 497
+	A23:	249 339
+	A24:	64 898
+	A25:	128 914
+	A26:	65 688
+	A27:	114 628
+	A28:	56 547
+	A29:	741 798
+	A3:	72 966
+	A30:	40 497
+	A31:	145 685
+	A32:	97 044
+	A33:	787 609
+	A34:	41 241
+	A35:	105 721
+	A36:	57 291
+	A37:	153 733
+	A38:	32 564
+	A39:	48 930
+	A4:	40 490
+	A40:	202 696
+	A41:	299 345
+	A42:	202 322
+	A43:	660 773
+	A44:	33 005
+	A45:	24 819
+	A46:	32 844
+	A47:	32 844
+	A48:	73 828
+	A49:	114 279
+	A5:	72 874
+	A50:	628 345
+	A51:	8 397
+	A52:	8 489
+	A53:	8 397
+	A54:	8 489
+	A55:	8 397
+	A56:	8 489
+	A6:	16 418
+	A7:	16 418
+	A8:	40 862
+	A9:	88 915
+Size of the largest message sent (by type, in bytes): 
+	improve:	211
+	ok:	226
+	- Overall maximum:	226
